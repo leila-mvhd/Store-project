@@ -9,7 +9,7 @@ import { SlBasket } from "react-icons/sl";
 
 
 function Card({data}) {
-    console.log(data);
+    // console.log(data);
     const {id,title,image,price} = data
     return (
         <div className={styles.card}>
