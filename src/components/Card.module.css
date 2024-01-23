@@ -1,5 +1,5 @@
 .card{
-    width: 230px;
+    width: 19%;
     margin: 10px;
     padding: 20px;
     display: flex;
@@ -12,15 +12,38 @@
 }
 .card img{
     width: auto;
-    height: 170px;
+    height: 150px;
     max-width: 70%;
     background-color: #fff;
     padding: 20px;
     object-fit: contain;
     margin: 0 auto;
 }
+.card h3{
+    color: #363ca1;
+}
+
 .actions{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    font-size: 1.2rem;
+    align-items: center;
+}
+.actions button{
+    padding: 0px;
+    background-color: #646cff;
+    width: 34px;
+    height: 34px;
+    color: #fff;
+    vertical-align: middle;
+    font-size: 1.2rem;
+}
+.actions button:hover,.actions button:focus{
+    background-color: #535adf;   
+    outline: none;
+}
+.actions span{
+    padding: 0 12px;
+    font-size: 1rem;
 }
