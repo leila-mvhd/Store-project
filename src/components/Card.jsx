@@ -27,7 +27,7 @@ function Card({data}) {
             <h3>{shortenText(title)}</h3>
             <p>{price} $ </p>
             <div className={styles.actions}>
-                <Link to={`/product/${id}`}><TbListDetails /></Link>
+                <Link to={`/products/${id}`}><TbListDetails /></Link>
                 <div>
                     {quantity === 1 && (<button onClick={() => clickHandler("REMOVE_ITEM")}><MdDeleteOutline /></button>)}
                     {quantity > 1 && (<button onClick={() => clickHandler("DECREASE")}>-</button>)}

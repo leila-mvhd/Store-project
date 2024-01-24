@@ -42,7 +42,7 @@ const sumProducts = (products) => {
     (counter, product) => counter + product.quantity,
     0
   );
-  console.log(itemsCounter);
+  // console.log(itemsCounter);
   const total = products
     .reduce((total, product) => total + product.price * product.quantity, 0)
     .toFixed(2);
